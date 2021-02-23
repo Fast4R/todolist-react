@@ -1,0 +1,72 @@
+.todo{
+    padding: 20px;
+    box-shadow: 0 0 5px black;
+    background-color: rgba(93, 91, 116, .1);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate(-50%, -50%);
+}
+
+.todo__task{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px 8px;
+    margin-top: 3px;
+    font-size: 24px;
+
+    background-color: rgba(243, 99, 99, .3);
+}
+
+.todo__task-red{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px 8px;
+    margin-top: 3px;
+    font-size: 24px;
+
+    background-color: rgba(99, 243, 99, .3);
+}
+
+.todo__input{
+    margin-top: 10px;
+}
+
+.btn{
+    padding: 3px;
+    margin-left: 20px;
+
+    border: none;
+
+    background-color: rgb(64, 252, 64);
+    cursor: pointer;
+    border-radius: 5px;
+
+    transition: background-color .2s linear;
+}
+
+.btn:hover{
+    background-color: rgb(35, 243, 35);
+}
+
+.btn-remove{
+    padding: 3px;
+    margin-left: 20px;
+
+    border: none;
+
+    background-color: rgb(226, 21, 21);
+    cursor: pointer;
+    border-radius: 5px;
+
+    transition: background-color .2s linear;
+}
+
+.btn-remove:hover{
+    background-color: rgb(187, 11, 11);
+}
